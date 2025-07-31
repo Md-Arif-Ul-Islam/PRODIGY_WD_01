@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">EliteMatrix</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#OurWork" class="nav-link">OurWork</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Welcome To EliteMatrix</h1>
+                <p class="hero-subtitle">Experience next-gen technology crafted with sleek visuals and seamless interactions.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Get Started</a>
+                    <a href="#OurWork" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We bring ideas to life through thoughtful design and advanced technology. Our mission 
+                        is to create digital products that not only meet but redefine expectations.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">🚀</div>
+                            <h3>Innovation</h3>
+                            <p>Modern problems, intelligent solutions</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">⚡</div>
+                            <h3>Performance</h3>
+                            <p>Blazing speed with peak efficiency</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Design</h3>
+                            <p>Visually rich, user-approved interfaces</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="services" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Fully customized websites and apps with cutting-edge frameworks</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Seamless mobile apps for both iOS and Android platforms</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Performance-focused digital marketing for real results</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Flexible cloud architecture with seamless deployment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="OurWork" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="OurWork-grid">
+                <div class="OurWork-item">
+                    <div class="OurWork-image"></div>
+                    <div class="OurWork-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Smart, intuitive online retail experience</p>
+                    </div>
+                </div>
+                <div class="OurWork-item">
+                    <div class="OurWork-image"></div>
+                    <div class="OurWork-content">
+                        <h3>Smart Retail App</h3>
+                        <p>AI-driven inventory & shopping experience</p>
+                    </div>
+                </div>
+                <div class="OurWork-item">
+                    <div class="OurWork-image"></div>
+                    <div class="OurWork-content">
+                        <h3>Healthcare Dashboard</h3>
+                        <p>Real-time patient analytics and diagnostics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact With Us Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Connect With Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Your Vision, Our Expertise</h3>
+                    <p>Got an idea? Let’s bring it to life — together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span> hello@elite.matrix</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Fancy Bazaar, Guwahati</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EliteMatrix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
